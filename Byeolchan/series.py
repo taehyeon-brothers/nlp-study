@@ -45,7 +45,7 @@ data = {
            '1003',
            '1004',
            '1005'],
-    '이름': ['Steve', ㄴ
+    '이름': ['Steve',
            'James',
            'Doyeon',
            'Jane',
@@ -61,3 +61,7 @@ print('-'*18)
 print(df.head(3))
 print(df.tail(3))
 print(df['학번'])
+
+df = pd.read_csv('iris.csv')
+print(df)
+print(df.index)
